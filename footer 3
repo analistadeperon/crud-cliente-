@@ -1,0 +1,32 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
+})
+export class FooterComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+.footer {
+    height: 7%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: rgb(141, 139, 139);
+    margin: 0;
+    font-size: 1rem;
+    border-radius: 1px solid rgb(58, 57, 57);
+    padding: 0 8%;
+    border-radius: 20px;
+}
